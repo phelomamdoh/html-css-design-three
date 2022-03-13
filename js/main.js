@@ -1,16 +1,23 @@
 // add our skills progress animated width
-let skillsSection = document.querySelector(".our-skills");
-let skillsProgressSpans = document.querySelectorAll(
-  ".our-skills .skills .skill .progress span"
-);
+// let skillsSection = document.querySelector(".our-skills");
+// let skillsProgressSpans = document.querySelectorAll(
+//   ".our-skills .skills .skill .progress span"
+// );
 
-window.onscroll = function () {
-  if (window.scrollY >= skillsSection.offsetTop - 100) {
-    skillsProgressSpans.forEach(function (span) {
-      span.style.width = span.dataset.width;
-    });
-  }
-};
+// window.onscroll = function () {
+//   console.log("hi");
+// };
+
+// window.onscroll = function () {
+//   console.log("skillsProgressSpans");
+//   // if (window.scrollY === skillsSection.offsetTop) {
+//   //   skillsProgressSpans.forEach((span) => {
+//   //     span.style.width = span.dataset.width;
+//   //   });
+//   // } else {
+//   //   console.log("no");
+//   // }
+// };
 
 // add counter down on events section
 let countDownDate = new Date("Dec 31, 2022 23:59:59").getTime();
