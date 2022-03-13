@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: 'Cairo', sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 a {
@@ -422,7 +422,8 @@ header .mega-menu .links li a i {
   border-radius: 6px;
   background-color: white;
   overflow: hidden;
-  transition: transform var(--main-transition), box-shadow var(--main-transition);
+  transition: transform var(--main-transition),
+    box-shadow var(--main-transition);
 }
 
 .articles .box:hover {
@@ -657,7 +658,6 @@ header .mega-menu .links li a i {
 .features .passion .image-holder::before {
   background-color: rgb(3 169 244 / 60%);
 }
-
 
 .features .passion h2::before {
   background-color: #03a9f4;
@@ -975,6 +975,7 @@ header .mega-menu .links li a i {
   position: absolute;
   left: 0;
   top: 0;
+  transition: width 0.4s linear;
 }
 /* end our-skills */
 /* start work-steps */
@@ -1102,7 +1103,7 @@ header .mega-menu .links li a i {
   border: 1px solid #d4d4d4;
   border-radius: 6px;
   text-align: center;
-  width: 75px;
+  width: fit-content;
   transition: var(--main-transition);
 }
 
@@ -1548,7 +1549,6 @@ header .mega-menu .links li a i {
   align-items: center;
 }
 
-
 @media (max-width: 991px) {
   .discount .image,
   .discount .form {
@@ -1650,7 +1650,7 @@ footer .box ul.social {
   }
 }
 
-footer .box ul.social li a{
+footer .box ul.social li a {
   background-color: #313131;
   color: #b9b9b9;
   width: 50px;
@@ -1819,7 +1819,8 @@ footer .copyright {
 }
 
 @keyframes flashing {
-  0%, 40% {
+  0%,
+  40% {
     opacity: 1;
   }
   100% {
@@ -1830,10 +1831,11 @@ footer .copyright {
 }
 
 @keyframes change-background {
-  0%, 100% {
+  0%,
+  100% {
     background-image: url(../images/discount-bg-1.jpg);
   }
-  
+
   50% {
     background-image: url(../images/discount-bg-2.jpg);
   }
